@@ -1,0 +1,79 @@
+@media screen and (min-width: 1439px) {
+.Hero {
+  padding-top:96px;
+}
+}
+
+@media screen and (min-width: 319px) {
+  .Hero {
+    padding-top: 96px;
+  }
+}
+@media screen and (min-width: 1439px) {
+.InfoOffer {
+  display: flex;
+}
+}
+
+.Caption {
+  font-family: 'Helvetica Now Display Black';
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 1.107;
+  letter-spacing: -1px;
+  color:var(--main-font-color);
+
+}
+
+@media screen and (min-width: 1439px) {
+  .Caption {
+      margin-right: 50px;
+      width: 430px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1439px) {
+  .Caption {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  .Caption {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.11;
+    letter-spacing: -1px;
+    color:var(--main-font-color);
+    margin-bottom: 16px;
+  }
+}
+
+
+.Caption>span {
+  color: var(--accent-color);
+}
+
+.Description{
+  font-family: 'Helvetica Now Display Regular';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.541;
+  color:var(--main-font-color);
+
+}
+
+@media screen and (min-width: 1439px) {
+  .Description {
+      width:550px;
+  }
+}
+
+
+@media screen and (min-width: 319px) and (max-width: 767px) {
+  .Description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.55;
+  }
+}

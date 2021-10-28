@@ -1,0 +1,116 @@
+@media screen and (min-width: 319px) {
+.Header {
+ padding-top: 48.52px;
+}
+}
+
+@media screen and (min-width: 767px) {
+  .Header {
+    padding-top: 26px;
+  }
+}
+
+@media screen and (min-width: 1439px) {
+  .Header {
+    padding-top: 24px;
+  }
+}
+
+.Navigation {
+  display:flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 319px) {
+  .HeaderLogo {
+    margin-right: 79px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .HeaderLogo {
+    margin-right: 527px;
+  }
+}
+
+@media screen and (min-width: 1439px) {
+.HeaderLogo {
+  margin-right: 296px;
+}
+}
+
+.PageList {
+  display: flex;
+  margin-right:300px;
+}
+
+
+
+  @media screen and (max-width: 1439px) {
+    .PageList {
+      display: none;
+    }
+  }
+
+.PageLink {
+  color: var(--main-font-color);
+  font-family: var(--main-font);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.47;
+}
+
+.CurrentPageLink {
+  font-family: var(--second-font);
+  font-weight: 900;
+  color: var(--accent-color);
+}
+
+.PageListLink:not(last-child) {
+  margin-right: 36px;
+}
+
+.ButtonContactUs {
+  padding: 16px;
+  width: 156px;
+  height: 48px;
+  border-radius: 383px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 2px solid var(--accent-color);
+
+  color: var(--main-font-color);
+  font-family: var(--second-font);
+  font-weight: 700;
+}
+
+  @media screen and (max-width: 1439px) {
+    .ButtonContactUs {
+      display: none;
+    }
+  }
+
+  a.Icons {
+    margin-right: 16px;
+  }
+
+    @media screen and (min-width: 1439px) {
+      .Icons {
+        display: none;
+      }
+    }
+
+  .ButtonNavigationMenu {
+    background-color: transparent;
+    border: none;
+  }
+
+    @media screen and (min-width: 1439px) {
+    .ButtonNavigationMenu {
+        display: none;
+    }
+  }
