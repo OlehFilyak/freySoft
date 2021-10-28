@@ -2,8 +2,8 @@
 
 :root {
   --main-font:
-    'Helvetica Now display',
-    'Helvetica Neue',
+    'Helvetica Now Display Regular',
+    'Helvetica Now Display Medium',
     -apple-system,
     BlinkMacSystemFont,
     sans-serif;
@@ -23,6 +23,37 @@
   --input-border-color: rgba(0, 0, 0, 0.2);
 
 }
+
+@font-face {
+  font-family: 'Helvetica Now Display Regular';
+  src: local('Helvetica-NowDisplayRegular'),
+  url(./fonts/Helvetica-NowDisplayRegular.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display Bold';
+  src: local('Helvetica-NowDisplayBold'),
+    url(./fonts/Helvetica-NowDisplayBold.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display Medium';
+  src: local('Helvetica-NowDisplayMedium'),
+    url(./fonts/Helvetica-NowDisplayMedium.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display XBlack';
+  src: local('Helvetica-NowDisplayXBlack'),
+    url(./fonts/Helvetica-NowDisplayXBlack.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'Helvetica Now Display Black';
+  src: local('Helvetica-NowDisplayBlack'),
+    url(./fonts/Helvetica-NowDisplayBlack.otf) format('otf');
+}
+
 
 *,
 *::before,
