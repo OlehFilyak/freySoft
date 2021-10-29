@@ -1,6 +1,24 @@
-.Container {
+/* .Container {
   height: 977px;
-}
+} */
+
+  @media screen and (min-width: 320px) {
+    .Container {
+      height: 400px;
+    }
+  }
+
+    @media screen and (min-width: 768px) {
+      .Container {
+        height: 468px;
+      }
+    }
+
+  @media screen and (min-width: 1440px) {
+    .Container {
+      height: 977px;
+    }
+  }
 
 .CommonItemWrapper{
   position: absolute;
@@ -26,22 +44,55 @@
     }
   }
 
-.CommonItemWrapper:not(last-child) {
-  margin-bottom: 20px
-}
-
 .ItemsWrapper1,
 .ItemsWrapper2,
 .ItemsWrapper3 {
-
   display: flex;
   position: relative;
 }
 
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     .ItemsWrapper1,
+    .ItemsWrapper2
+     {
+     margin-bottom: 6.3px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
+    .ItemsWrapper1,
+    .ItemsWrapper2 {
+      margin-bottom: 9.98px;
+    }
+  }
+
+    @media screen and (min-width: 1440px) {
+      .ItemsWrapper1,
+      .ItemsWrapper2 {
+        margin-bottom: 20px;
+      }
+    }
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+  .ItemsWrapper3 {
+    margin-bottom: 42px;
+   }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
     .ItemsWrapper3 {
-      left: -185px;
+      margin-bottom: 8.57px;
+    }
+  }
+
+  @media screen and (min-width: 320px) {
+    .ItemsWrapper2 {
+      left: 6.318px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .ItemsWrapper2 {
+      left: -12.598px;
     }
   }
 
@@ -52,16 +103,36 @@
   }
 
   @media screen and (min-width: 1920px) {
-    .ItemsWrapper1,
-    .ItemsWrapper3 {
-      left: -343px;
+    .ItemsWrapper2 {
+      left: -152px;
     }
   }
 
+  @media screen and (min-width: 320px) {
+    .ItemsWrapper1,
+    .ItemsWrapper3 {
+      left: -30.557px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .ItemsWrapper1,
+    .ItemsWrapper3 {
+      left: -70.997px;
+    }
+  }
+
+  @media screen and (min-width: 1440px) {
+    .ItemsWrapper1,
+    .ItemsWrapper3 {
+      left: -185px;
+    }
+  }
 
   @media screen and (min-width: 1920px) {
-    .ItemsWrapper2 {
-     left: -152px;
+    .ItemsWrapper1,
+    .ItemsWrapper3 {
+      left: -343px;
     }
   }
 
@@ -84,27 +155,24 @@
   }
 
 .BackgroundImage {
-  background-color: #fff;
+  background-color: #000;
   border-radius: 10px;
-  
   overflow: hidden;
 }
 
   @media screen and (min-width: 320px) {
     .BackgroundImage {
-      width: 119.1px;
+      min-width: 119.1px;
       height: 66.8px;
       margin-right: 6.3px;
-      margin-bottom: 6.3px;
     }
   }
 
   @media screen and (min-width: 768px) {
     .BackgroundImage {
-      width: 188.68px;
+      min-width: 188.68px;
       height: 105.82px;
       margin-right: 9.98px;
-      margin-bottom: 9.98px;
     }
   }
 
@@ -113,7 +181,6 @@
       min-width: 378px;
       height: 212px;
       margin-right: 20px;
-      margin-bottom: 20px;
     }
   }
 
@@ -128,28 +195,98 @@
   }
 }
 
+@media screen and (min-width: 320px) {
+  .BackgroundImage2 {
+    background-image: url('./HeroImages/mobile/Rectangle\ 2.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .BackgroundImage2 {
+    background-image: url('./HeroImages/tablet/Rectangle\ 2.jpg');
+  }
+}
+
+@media screen and (min-width: 1440px) {
 .BackgroundImage2 {
   background-image: url('./HeroImages/desktop/Rectangle\ 2.jpg');
 }
+}
 
+@media screen and (min-width: 320px) {
+  .BackgroundImage3 {
+    background-image: url('./HeroImages/mobile/Rectangle\ 3.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .BackgroundImage3 {
+    background-image: url('./HeroImages/tablet/Rectangle\ 3.jpg');
+  }
+}
+
+@media screen and (min-width: 1440px) {
 .BackgroundImage3 {
   background-image: url('./HeroImages/desktop/Rectangle\ 3.jpg');
 }
+}
 
+@media screen and (min-width: 320px) {
+  .BackgroundImage4 {
+    background-image: url('./HeroImages/mobile/Rectangle\ 4.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .BackgroundImage4 {
+    background-image: url('./HeroImages/tablet/Rectangle\ 4.jpg');
+  }
+}
+
+@media screen and (min-width: 1440px) {
 .BackgroundImage4 {
   background-image: url('./HeroImages/desktop/Rectangle\ 4.jpg');
 }
+}
 
+@media screen and (min-width: 320px) {
+  .BackgroundImage5 {
+    background-image: url('./HeroImages/mobile/Rectangle\ 5.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .BackgroundImage5 {
+    background-image: url('./HeroImages/tablet/Rectangle\ 5.jpg');
+  }
+}
+
+@media screen and (min-width: 1440px) {
 .BackgroundImage5 {
   background-image: url('./HeroImages/desktop/Rectangle\ 5.jpg');
+}
+}
+
+@media screen and (min-width: 320px) {
+  .BackgroundImage6 {
+    background-image: url('./HeroImages/mobile/Rectangle\ 6.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .BackgroundImage6 {
+    background-image: url('./HeroImages/tablet/Rectangle\ 6.jpg');
+  }
 }
 
 .BackgroundImage6 {
   background-image: url('./HeroImages/desktop/Rectangle\ 6.jpg');
 }
 
+@media screen and (min-width: 0px) {
 .BackgroundImage7 {
   display: none;
+}
 }
 
 @media screen and (min-width: 1920px) {
@@ -159,53 +296,242 @@
   }
 }
 
+@media screen and (min-width: 320px) {
+  .BackgroundImage8 {
+    background-image: url('./HeroImages/mobile/Rectangle\ 8.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .BackgroundImage8 {
+    background-image: url('./HeroImages/tablet/Rectangle\ 8.jpg');
+  }
+}
+
+@media screen and (min-width: 1440px) {
 .BackgroundImage8 {
   background-image: url('./HeroImages/desktop/Rectangle\ 8.jpg');
 }
-
-.BackgroundImage9 {
-  background-image: url('./HeroImages/desktop/Rectangle\ 9.jpg');
 }
 
+@media screen and (min-width: 320px) {
+  .BackgroundImage9 {
+    background-image: url('./HeroImages/mobile/Rectangle\ 9.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .BackgroundImage9 {
+     background-image: url('./HeroImages/tablet/Rectangle\ 9.jpg');
+  }
+}
+
+@media screen and (min-width: 1440px) {
+.BackgroundImage9 {
+  background-image:linear-gradient(to left, rgba(24, 232, 164, .9),
+  rgba(24, 232, 164, .9)),
+ url('./HeroImages/desktop/Rectangle\ 9.jpg');
+}
+}
+
+@media screen and (min-width: 320px) {
+  .BackgroundImage9>.SeeAllRolesLink {
+    display:none
+  }
+}
+
+@media screen and (min-width: 1440px) {
+.BackgroundImage9>.SeeAllRolesLink {
+  display: inline-block;
+  font-family: var(--third-font);
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 1.2;
+  color: #020213;
+  display: inline-block;
+  padding: 25% 25%;
+}
+}
+
+@media screen and (min-width: 320px) {
+  .BackgroundImage10 {
+    background-image: url('./HeroImages/mobile/Rectangle\ 10.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .BackgroundImage10 {
+    background-image: url('./HeroImages/tablet/Rectangle\ 10.jpg');
+  }
+}
+
+@media screen and (min-width: 1440px) {
 .BackgroundImage10 {
   background-image: url('./HeroImages/desktop/Rectangle\ 10.jpg');
 }
+}
 
+@media screen and (min-width: 320px) {
+  .BackgroundImage11 {
+    background-image: url('./HeroImages/mobile/Rectangle\ 11.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .BackgroundImage11 {
+    background-image: url('./HeroImages/tablet/Rectangle\ 11.jpg');
+  }
+}
+
+@media screen and (min-width: 1440px) {
 .BackgroundImage11 {
   background-image: url('./HeroImages/desktop/Rectangle\ 11.jpg');
 }
+}
 
+@media screen and (min-width: 320px) {
+  .BackgroundImage12 {
+    background-image: url('./HeroImages/mobile/Rectangle\ 12.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .BackgroundImage12 {
+    background-image: url('./HeroImages/tablet/Rectangle\ 12.jpg');
+  }
+}
+
+@media screen and (min-width: 1440px) {
 .BackgroundImage12 {
-     background-image: url('./HeroImages/desktop/Rectangle\ 12.jpg');
+  background-image: url('./HeroImages/desktop/Rectangle\ 12.jpg');
+}
 }
 
 .BackgroundImage13 {
  display: none;
 }
 
-  @media screen and (min-width: 1920px) {
-    .BackgroundImage13 {
-    background-image: url('./HeroImages/desktop/Rectangle\ 13.jpg');
-    display: inline-flex;
-  }
-  }
+@media screen and (min-width: 1920px) {
+  .BackgroundImage13 {
+  background-image: url('./HeroImages/desktop/Rectangle\ 13.jpg');
+  display: inline-flex;
+}
+}
 
+@media screen and (min-width: 320px) {
+  .BackgroundImage14 {
+    background-image: url('./HeroImages/mobile/Rectangle\ 14.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .BackgroundImage14 {
+    background-image: url('./HeroImages/tablet/Rectangle\ 14.jpg');
+  }
+}
+
+@media screen and (min-width: 1440px) {
 .BackgroundImage14 {
   background-image: url('./HeroImages/desktop/Rectangle\ 14.jpg');
 }
+}
 
+@media screen and (min-width: 320px) {
+  .BackgroundImage15 {
+    background-image: url('./HeroImages/mobile/Rectangle\ 15.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .BackgroundImage15 {
+    background-image: url('./HeroImages/tablet/Rectangle\ 15.jpg');
+  }
+}
+
+@media screen and (min-width: 1440px) {
 .BackgroundImage15 {
   background-image: url('./HeroImages/desktop/Rectangle\ 15.jpg');
 }
+}
 
+@media screen and (min-width: 320px) {
+  .BackgroundImage16 {
+    background-image: url('./HeroImages/mobile/Rectangle\ 16.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .BackgroundImage16 {
+    background-image: url('./HeroImages/tablet/Rectangle\ 16.jpg');
+  }
+}
+
+@media screen and (min-width: 1440px) {
 .BackgroundImage16 {
   background-image: url('./HeroImages/desktop/Rectangle\ 16.jpg');
 }
+}
 
+@media screen and (min-width: 320px) {
+  .BackgroundImage17 {
+    background-image: url('./HeroImages/mobile/Rectangle\ 17.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .BackgroundImage17 {
+    background-image: url('./HeroImages/tablet/Rectangle\ 17.jpg');
+  }
+}
+
+@media screen and (min-width: 1440px) {
 .BackgroundImage17 {
   background-image: url('./HeroImages/desktop/Rectangle\ 17.jpg');
 }
+}
 
-.BackgroundImage18 {
-  background-image: url('./HeroImages/desktop/Rectangle\ 18.jpg');
+@media screen and (min-width: 320px) {
+  .BackgroundImage18 {
+    background-image: url('./HeroImages/mobile/Rectangle\ 18.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .BackgroundImage18 {
+    background-image: url('./HeroImages/tablet/Rectangle\ 18.jpg');
+  }
+}
+
+@media screen and (min-width: 1440px) {
+ .BackgroundImage18 {
+    background-image: url('./HeroImages/desktop/Rectangle\ 18.jpg');
+}
+}
+
+.SeeAllRolesBtn {
+  width: 172px;
+  height: 40px;
+  padding: 12px 16px;
+  text-align: center;
+
+  background-color: var(--accent-color);
+  border: 0px solid transparent;
+  border-radius: 10px;
+
+  box-shadow: 0px 32px 16px rgba(0, 0, 0, 0.09),
+  0px 16px 8px rgba(0, 0, 0, 0.09),
+  0px 8px 4px rgba(0, 0, 0, 0.09),
+  0px 4px 2px rgba(0, 0, 0, 0.09),
+  0px 2px 1px rgba(0, 0, 0, 0.09);
+
+  font-family: var(--third-font);
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 1440px) {
+  .SeeAllRolesBtn {
+    display:none;
+  }
 }

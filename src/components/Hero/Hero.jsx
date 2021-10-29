@@ -1,7 +1,7 @@
 import css from './Hero.module.css';
 function Hero() {
   return (
-    <section className={css.Hero}>
+    <div className={css.HeroWrapper}>
       <div className={css.InfoOffer}>
         <h1 className={css.Caption}>
           We’ve got the job for you<span>!</span>
@@ -12,7 +12,7 @@ function Hero() {
           workplace.
         </p>
       </div>
-    </section>
+    </div>
   );
 }
 

@@ -1,14 +1,15 @@
+@media screen and (min-width: 319px) {
+  .HeroWrapper {
+    padding-top: 48.69px;
+  }
+}
+
 @media screen and (min-width: 1439px) {
-.Hero {
+.HeroWrapper {
   padding-top:96px;
 }
 }
 
-@media screen and (min-width: 319px) {
-  .Hero {
-    padding-top: 96px;
-  }
-}
 @media screen and (min-width: 1439px) {
 .InfoOffer {
   display: flex;

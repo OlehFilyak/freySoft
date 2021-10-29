@@ -3,6 +3,7 @@ import WrapperBackgroundColorSection from './components/WrapperBackgroundColorSe
 import Header from './components/Header';
 import Hero from './components/Hero';
 import HeroImgContainer from './components/HeroImgContainer';
+import SectionWrapper from './components/SectionWrapper';
 
 import './App.css';
 
@@ -13,9 +14,12 @@ function App() {
         <Container>
           <Header />
         </Container>
-        <Container>
-          <Hero />
-        </Container>
+
+        <SectionWrapper>
+          <Container>
+            <Hero />
+          </Container>
+        </SectionWrapper>
       </WrapperBackgroundColorSection>
       <WrapperBackgroundColorSection color="#000000">
         <HeroImgContainer />

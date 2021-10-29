@@ -1,4 +1,5 @@
 import css from './HeroImgContainer.module.css';
+import Container from '../Container';
 
 function HeroImgContainer() {
   return (
@@ -32,9 +33,11 @@ function HeroImgContainer() {
           <li
             className={`${css.BackgroundImage} ${css.BackgroundImage8} list`}
           ></li>
-          <li
-            className={`${css.BackgroundImage} ${css.BackgroundImage9} list`}
-          ></li>
+          <li className={`${css.BackgroundImage} ${css.BackgroundImage9} list`}>
+            <a href="/all-roles" className={`${css.SeeAllRolesLink} link`}>
+              See All Roles
+            </a>
+          </li>
           <li
             className={`${css.BackgroundImage} ${css.BackgroundImage10} list`}
           ></li>
@@ -66,6 +69,13 @@ function HeroImgContainer() {
             className={`${css.BackgroundImage} ${css.BackgroundImage18} list`}
           ></li>
         </ul>
+        <Container>
+          <a href="./all-roles">
+            <button type="button" className={css.SeeAllRolesBtn}>
+              See All Roles
+            </button>
+          </a>
+        </Container>
       </div>
     </div>
   );

@@ -12,6 +12,11 @@
       -apple-system,
       BlinkMacSystemFont,
       sans-serif;
+
+  --third-font: 'Helvetica Now Display XBold',
+  -apple-system,
+  BlinkMacSystemFont,
+  sans-serif;
   
   --main-font-color: #fff;
 
