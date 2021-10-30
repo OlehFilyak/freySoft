@@ -63,6 +63,18 @@
   color: var(--second-font-color);
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .AboutDescription {
+    width: 232px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1439px) {
+  .AboutDescription {
+    width: 348px;
+  }
+}
+
 @media screen and (min-width: 320px) {
   .AboutDescriptionItem:not(:last-child) {
     margin-bottom: 32px;
