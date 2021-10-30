@@ -1,0 +1,82 @@
+@media screen and (min-width: 320px) {
+  .AboutContainer {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .AboutContainer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .AboutContainer {
+    padding-top: 100px;
+    padding-bottom: 118px;
+
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .AboutDescriptionList {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .AboutCaption {
+    margin-bottom: 31px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .AboutCaption {
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .AboutCaption {
+    width: 365px;
+    margin-right: 100px;
+
+    font-family: var(--fourth-font);
+    font-weight: 900;
+    font-size: 62px;
+    line-height: 0.89;
+    letter-spacing: -1px;
+    color: var(--second-font-color);
+  }
+}
+
+  .AboutDescription {
+    width: 400px;
+
+    font-family: var(--fifth-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--second-font-color);
+  }
+
+@media screen and (min-width: 320px) {
+  .AboutDescriptionItem:not(:last-child) {
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .AboutDescriptionItem:not(:last-child) {
+    margin-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .AboutDescriptionItem:not(:last-child) {
+    margin-right: 40px;
+  }
+}

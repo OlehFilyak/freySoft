@@ -17,8 +17,20 @@
   -apple-system,
   BlinkMacSystemFont,
   sans-serif;
+
+  --fourth-font: 'Helvetica Now Display Black',
+  -apple-system,
+  BlinkMacSystemFont,
+  sans-serif;
+
+  --fifth-font: 'Helvetica Now Display Medium',
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
   
   --main-font-color: #fff;
+  --second-font-color: #202523;
+  --third-font-color: #545460;
 
   --desktopHD: 'screen and (min-width:1920px)';
   --desktop: 'screen and (min-width: 1440px)';
