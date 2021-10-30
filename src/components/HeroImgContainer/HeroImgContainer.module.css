@@ -413,98 +413,98 @@
 
 @media screen and (min-width: 1920px) {
   .BackgroundImage13 {
-  background-image: url('./HeroImages/desktop/Rectangle\ 13.jpg');
+  background-image: linear-gradient(180deg, rgba(2, 2, 19, 0) 0%, #020213 100%), url('./HeroImages/desktop/Rectangle\ 13.jpg');
   display: inline-flex;
 }
 }
 
 @media screen and (min-width: 320px) {
   .BackgroundImage14 {
-    background-image: url('./HeroImages/mobile/Rectangle\ 14.jpg');
+    background-image:linear-gradient(180deg, rgba(2, 2, 19, 0) 0%, #020213 100%), url('./HeroImages/mobile/Rectangle\ 14.jpg');
   }
 }
 
 @media screen and (min-width: 768px) {
   .BackgroundImage14 {
-    background-image: url('./HeroImages/tablet/Rectangle\ 14.jpg');
+    background-image:linear-gradient(180deg, rgba(2, 2, 19, 0) 0%, #020213 100%), url('./HeroImages/tablet/Rectangle\ 14.jpg');
   }
 }
 
 @media screen and (min-width: 1440px) {
 .BackgroundImage14 {
-  background-image: url('./HeroImages/desktop/Rectangle\ 14.jpg');
+  background-image: linear-gradient(180deg, rgba(2, 2, 19, 0) 0%, #020213 100%), url('./HeroImages/desktop/Rectangle\ 14.jpg');
 }
 }
 
 @media screen and (min-width: 320px) {
   .BackgroundImage15 {
-    background-image: url('./HeroImages/mobile/Rectangle\ 15.jpg');
+    background-image: linear-gradient(180deg, rgba(2, 2, 19, 0) 0%, #020213 100%), url('./HeroImages/mobile/Rectangle\ 15.jpg');
   }
 }
 
 @media screen and (min-width: 768px) {
   .BackgroundImage15 {
-    background-image: url('./HeroImages/tablet/Rectangle\ 15.jpg');
+    background-image: linear-gradient(180deg, rgba(2, 2, 19, 0) 0%, #020213 100%), url('./HeroImages/tablet/Rectangle\ 15.jpg');
   }
 }
 
 @media screen and (min-width: 1440px) {
 .BackgroundImage15 {
-  background-image: url('./HeroImages/desktop/Rectangle\ 15.jpg');
+  background-image: linear-gradient(180deg, rgba(2, 2, 19, 0) 0%, #020213 100%), url('./HeroImages/desktop/Rectangle\ 15.jpg');
 }
 }
 
 @media screen and (min-width: 320px) {
   .BackgroundImage16 {
-    background-image: url('./HeroImages/mobile/Rectangle\ 16.jpg');
+    background-image: linear-gradient(180deg, rgba(2, 2, 19, 0) 0%, #020213 100%), url('./HeroImages/mobile/Rectangle\ 16.jpg');
   }
 }
 
 @media screen and (min-width: 768px) {
   .BackgroundImage16 {
-    background-image: url('./HeroImages/tablet/Rectangle\ 16.jpg');
+    background-image: linear-gradient(180deg, rgba(2, 2, 19, 0) 0%, #020213 100%), url('./HeroImages/tablet/Rectangle\ 16.jpg');
   }
 }
 
 @media screen and (min-width: 1440px) {
 .BackgroundImage16 {
-  background-image: url('./HeroImages/desktop/Rectangle\ 16.jpg');
+  background-image: linear-gradient(180deg, rgba(2, 2, 19, 0) 0%, #020213 100%), url('./HeroImages/desktop/Rectangle\ 16.jpg');
 }
 }
 
 @media screen and (min-width: 320px) {
   .BackgroundImage17 {
-    background-image: url('./HeroImages/mobile/Rectangle\ 17.jpg');
+    background-image: linear-gradient(180deg, rgba(2, 2, 19, 0) 0%, #020213 100%), url('./HeroImages/mobile/Rectangle\ 17.jpg');
   }
 }
 
 @media screen and (min-width: 768px) {
   .BackgroundImage17 {
-    background-image: url('./HeroImages/tablet/Rectangle\ 17.jpg');
+    background-image: linear-gradient(180deg, rgba(2, 2, 19, 0) 0%, #020213 100%), url('./HeroImages/tablet/Rectangle\ 17.jpg');
   }
 }
 
 @media screen and (min-width: 1440px) {
 .BackgroundImage17 {
-  background-image: url('./HeroImages/desktop/Rectangle\ 17.jpg');
+  background-image: linear-gradient(180deg, rgba(2, 2, 19, 0) 0%, #020213 100%), url('./HeroImages/desktop/Rectangle\ 17.jpg');
 }
 }
 
 @media screen and (min-width: 320px) {
   .BackgroundImage18 {
-    background-image: url('./HeroImages/mobile/Rectangle\ 18.jpg');
+    background-image: linear-gradient(180deg, rgba(2, 2, 19, 0) 0%, #020213 100%), url('./HeroImages/mobile/Rectangle\ 18.jpg');
   }
 }
 
 @media screen and (min-width: 768px) {
   .BackgroundImage18 {
-    background-image: url('./HeroImages/tablet/Rectangle\ 18.jpg');
+    background-image: linear-gradient(180deg, rgba(2, 2, 19, 0) 0%, #020213 100%), url('./HeroImages/tablet/Rectangle\ 18.jpg');
   }
 }
 
 @media screen and (min-width: 1440px) {
  .BackgroundImage18 {
-    background-image: url('./HeroImages/desktop/Rectangle\ 18.jpg');
+    background-image: linear-gradient(180deg, rgba(2, 2, 19, 0) 0%, #020213 100%), url('./HeroImages/desktop/Rectangle\ 18.jpg');
 }
 }
 
