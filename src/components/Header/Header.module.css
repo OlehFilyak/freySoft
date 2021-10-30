@@ -1,7 +1,7 @@
 @media screen and (min-width: 319px) {
-.Header {
- padding-top: 48.52px;
-}
+  .Header {
+    padding-top: 48.52px;
+  }
 }
 
 @media screen and (min-width: 767px) {
@@ -17,7 +17,7 @@
 }
 
 .Navigation {
-  display:flex;
+  display: flex;
   align-items: center;
 }
 
@@ -34,23 +34,21 @@
 }
 
 @media screen and (min-width: 1439px) {
-.HeaderLogo {
-  margin-right: 296px;
-}
+  .HeaderLogo {
+    margin-right: 296px;
+  }
 }
 
 .PageList {
   display: flex;
-  margin-right:300px;
+  margin-right: 300px;
 }
 
-
-
-  @media screen and (max-width: 1439px) {
-    .PageList {
-      display: none;
-    }
+@media screen and (max-width: 1439px) {
+  .PageList {
+    display: none;
   }
+}
 
 .PageLink {
   color: var(--main-font-color);
@@ -88,29 +86,29 @@
   font-weight: 700;
 }
 
-  @media screen and (max-width: 1439px) {
-    .ButtonContactUs {
-      display: none;
-    }
+@media screen and (max-width: 1439px) {
+  .ButtonContactUs {
+    display: none;
   }
+}
 
-  a.Icons {
-    margin-right: 16px;
+a.Icons {
+  margin-right: 16px;
+}
+
+@media screen and (min-width: 1439px) {
+  .Icons {
+    display: none;
   }
+}
 
-    @media screen and (min-width: 1439px) {
-      .Icons {
-        display: none;
-      }
-    }
+.ButtonNavigationMenu {
+  background-color: transparent;
+  border: none;
+}
 
+@media screen and (min-width: 1439px) {
   .ButtonNavigationMenu {
-    background-color: transparent;
-    border: none;
+    display: none;
   }
-
-    @media screen and (min-width: 1439px) {
-    .ButtonNavigationMenu {
-        display: none;
-    }
-  }
+}

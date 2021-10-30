@@ -1,52 +1,34 @@
-@import "normalize.css";
+@import 'normalize.css';
 
 :root {
-  --main-font:
-    'Helvetica Now Display Regular',
-    -apple-system,
-    BlinkMacSystemFont,
+  --main-font: 'Helvetica Now Display Regular', -apple-system,
+    BlinkMacSystemFont, sans-serif;
+
+  --second-font: 'Helvetica Now Display Bold', -apple-system, BlinkMacSystemFont,
     sans-serif;
 
-  --second-font:
-      'Helvetica Now Display Bold',
-      -apple-system,
-      BlinkMacSystemFont,
-      sans-serif;
-
-  --third-font: 'Helvetica Now Display XBold',
-  -apple-system,
-  BlinkMacSystemFont,
-  sans-serif;
-
-  --fourth-font: 'Helvetica Now Display Black',
-  -apple-system,
-  BlinkMacSystemFont,
-  sans-serif;
-
-  --fifth-font: 'Helvetica Now Display Medium',
-    -apple-system,
-    BlinkMacSystemFont,
+  --third-font: 'Helvetica Now Display XBold', -apple-system, BlinkMacSystemFont,
     sans-serif;
-  
+
+  --fourth-font: 'Helvetica Now Display Black', -apple-system,
+    BlinkMacSystemFont, sans-serif;
+
+  --fifth-font: 'Helvetica Now Display Medium', -apple-system,
+    BlinkMacSystemFont, sans-serif;
+
   --main-font-color: #fff;
   --second-font-color: #202523;
   --third-font-color: #545460;
-
-  --desktopHD: 'screen and (min-width:1920px)';
-  --desktop: 'screen and (min-width: 1440px)';
-  --tablet: "screen and (min-width: 768px)";
-  --phone: "screen and (min-width: 320px)";
-  --accent-color: #18E8A4;
-
-  --primary-color: #DC004E;
   
+  --accent-color: #18e8a4;
 
+  --primary-color: #dc004e;
 }
 
 @font-face {
   font-family: 'Helvetica Now Display Regular';
   src: local('Helvetica-NowDisplayRegular'),
-  url(./fonts/Helvetica-NowDisplayRegular.ttf) format('ttf');
+    url(./fonts/Helvetica-NowDisplayRegular.ttf) format('ttf');
 }
 
 @font-face {
@@ -72,7 +54,6 @@
   src: local('Helvetica-NowDisplayBlack'),
     url(./fonts/Helvetica-NowDisplayBlack.otf) format('otf');
 }
-
 
 *,
 *::before,
