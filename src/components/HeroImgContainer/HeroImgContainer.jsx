@@ -70,11 +70,13 @@ function HeroImgContainer() {
           ></li>
         </ul>
         <Container>
-          <a href="./all-roles">
-            <button type="button" className={css.SeeAllRolesBtn}>
-              See All Roles
-            </button>
-          </a>
+          <div className={css.SeeAllRolesBtnContainer}>
+            <a href="./all-roles">
+              <button type="button" className={css.SeeAllRolesBtn}>
+                See All Roles
+              </button>
+            </a>
+          </div>
         </Container>
       </div>
     </div>
